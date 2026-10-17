@@ -1,0 +1,79 @@
+[
+  {
+    "year": 2027,
+    "venue": "ICDE",
+    "title": "WTNG: Efficient Multi-Vector Search via Weight-Template Navigation Graph.",
+    "authors": "Haoran Tang, Qihao Cheng, Da Yan, Tianhao Wu.",
+    "topic": "Multi-vector search"
+  },
+  {
+    "year": 2026,
+    "venue": "NeurIPS",
+    "title": "Reliable Clustering and Quantization via Distortion-Constrained Optimal Transport.",
+    "authors": "Tianhao Wu, Wei Zhang, Haoran Pang, Haoran Yang, Hao Shi.",
+    "topic": "Optimal transport"
+  },
+  {
+    "year": 2026,
+    "venue": "KDD",
+    "title": "NodeBits: A Plug-and-Play Framework for Accelerating Graph Inference by Post-Hoc Binary Quantization.",
+    "authors": "Qihao Cheng*, Tianhao Wu*, Da Yan, Haoran Tang.",
+    "topic": "Graph inference"
+  },
+  {
+    "year": 2026,
+    "venue": "ACL Findings",
+    "title": "TopoRAG: Graph-based RAG via Topology-aware Approximate Nearest Neighbor Search.",
+    "authors": "Tianhao Wu, Siqiang Luo†.",
+    "topic": "Graph retrieval"
+  },
+  {
+    "year": 2025,
+    "venue": "ICPP",
+    "title": "CompreGel: Efficient Distributed Graph Propagation via Error-Bounded Lossy Message Compression.",
+    "authors": "Tianhao Wu†, Da Yan, Qihao Cheng, Lyuheng Yuan, Sheng Di, Jiao Han, Zhongyi Huang, Ji Cheng.",
+    "topic": "Parallel computing"
+  },
+  {
+    "year": 2025,
+    "venue": "SIGMOD",
+    "title": "Computing Approximate Graph Edit Distance via Optimal Transport.",
+    "authors": "Qihao Cheng*†, Da Yan*, Tianhao Wu*, Zhongyi Huang, Qin Zhang.",
+    "topic": "Optimal transport"
+  },
+  {
+    "year": 2025,
+    "venue": "EDBT",
+    "title": "Efficient Enumeration of Large Maximal k-Plexes.",
+    "authors": "Qihao Cheng, Da Yan, Tianhao Wu†, Lyuheng Yuan, Ji Cheng, Zhongyi Huang, Yang Zhou.",
+    "topic": "Graph algorithms"
+  },
+  {
+    "year": 2024,
+    "venue": "EAJAM",
+    "title": "The Optimal Production Transport: Model and Algorithm.",
+    "authors": "Jie Fan, Tianhao Wu, Hao Wu†.",
+    "topic": "Optimal transport"
+  },
+  {
+    "year": 2023,
+    "venue": "SIGMOD",
+    "title": "ClipSim: A GPU-friendly Parallel Framework for Single-Source SimRank with Accuracy Guarantee.",
+    "authors": "Tianhao Wu, Ji Cheng, Chaorui Zhang†, Jianfeng Hou, Gengjian Chen, Zhongyi Huang, Weixi Zhang, Wei Han, Bo Bai.",
+    "topic": "Parallel computing"
+  },
+  {
+    "year": 2023,
+    "venue": "CSIAM TAM",
+    "title": "The Double Regularization Method for Capacity Constrained Optimal Transport.",
+    "authors": "Tianhao Wu, Qihao Cheng, Zihao Wang, Chaorui Zhang, Bo Bai, Zhongyi Huang, Hao Wu†.",
+    "topic": "Optimal transport"
+  },
+  {
+    "year": 2022,
+    "venue": "IEEE TWC",
+    "title": "A Novel AI-based Framework for AoI-optimal Trajectory Planning in UAV-assisted Wireless Sensor Networks.",
+    "authors": "Tianhao Wu, Jianfeng Liu, Juan Liu, Zhongyi Huang, Hao Wu, Chaorui Zhang†, Bo Bai, Gong Zhang.",
+    "topic": "Optimization"
+  }
+]
