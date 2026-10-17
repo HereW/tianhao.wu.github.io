@@ -1,11 +1,8 @@
-<div class="papers">
-{% assign entries = site.data.papers %}
-{% for paper in entries %}
+<ol class="publications">
+{% for paper in site.data.papers %}
 {% if include.selected %}{% unless paper.venue == "NeurIPS" or paper.venue == "KDD" or paper.venue == "SIGMOD" %}{% continue %}{% endunless %}{% endif %}
-
-<article class="paper">
-<div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span>{{ paper.year }}</span></div>
-<div><h3>{{ paper.title | escape }}</h3><p class="authors">{{ paper.authors | escape | replace: 'Tianhao Wu', '<strong>Tianhao Wu</strong>' }}</p><span class="topic">{{ paper.topic }}</span></div>
-</article>
+<li><div class="paper-title">{% if paper.url %}<a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</div>
+<div class="authors">{{ paper.authors | escape | replace: 'Tianhao Wu', '<strong>Tianhao Wu</strong>' }}</div>
+<div class="publication-venue"><strong>{{ paper.venue }}</strong>, {{ paper.year }}.{% if paper.pdf %} <a href="{{ paper.pdf | escape }}">[PDF]</a>{% endif %}{% if paper.code %} <a href="{{ paper.code | escape }}">[Code]</a>{% endif %}</div></li>
 {% endfor %}
-</div>
+</ol>
