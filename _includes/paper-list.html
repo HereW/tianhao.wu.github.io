@@ -1,12 +1,11 @@
 <div class="papers">
 {% assign entries = site.data.papers %}
-{% if include.selected %}{% assign entries = entries | where_exp: "paper", "paper.venue == 'NeurIPS' or paper.venue == 'KDD' or paper.venue == 'SIGMOD'" %}{% endif %}
 {% for paper in entries %}
-{% if include.selected == nil or forloop.index <= 4 %}
+{% if include.selected %}{% unless paper.venue == "NeurIPS" or paper.venue == "KDD" or paper.venue == "SIGMOD" %}{% continue %}{% endunless %}{% endif %}
+
 <article class="paper">
 <div class="paper-meta"><span class="venue">{{ paper.venue }}</span><span>{{ paper.year }}</span></div>
 <div><h3>{{ paper.title | escape }}</h3><p class="authors">{{ paper.authors | escape | replace: 'Tianhao Wu', '<strong>Tianhao Wu</strong>' }}</p><span class="topic">{{ paper.topic }}</span></div>
 </article>
-{% endif %}
 {% endfor %}
 </div>
