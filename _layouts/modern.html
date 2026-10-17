@@ -15,11 +15,11 @@
 <nav aria-label="Main navigation">{% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}</nav>
 </div></header>
 <section class="profile-band" aria-label="Academic profile"><div class="profile-inner">
-{% if site.author.avatar %}<img class="portrait" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Tianhao Wu">{% endif %}
+
 <div class="profile-text"><h1>Tianhao Wu <span lang="zh">吴天昊</span></h1>
 <p class="role">Lecturer</p><p>Center for Applied Mathematics, School of Mathematics<br>Tianjin University</p>
 <div class="profile-links"><a href="https://github.com/HereW">GitHub</a>{% if site.author.email %}<span> · </span><a href="mailto:{{ site.author.email }}">Email</a>{% endif %}{% if site.author.googlescholar %}<span> · </span><a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}{% if site.author.orcid %}<span> · </span><a href="{{ site.author.orcid }}">ORCID</a>{% endif %}</div>
-</div><div class="affiliation" aria-hidden="true">TIANJIN UNIVERSITY<span>天津大学</span></div>
+</div><img class="portrait" src="https://herew.github.io/images/profile.png" alt="Tianhao Wu" width="150" height="180">
 </div></section>
 <main id="main" class="content">{{ content }}</main>
 <footer class="footer"><div>© {{ site.time | date: '%Y' }} Tianhao Wu · Tianjin University<span>Jekyll / Academic Pages</span></div></footer>
