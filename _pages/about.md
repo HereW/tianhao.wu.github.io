@@ -15,7 +15,7 @@ redirect_from:
 <section id="research">
 <h2>Research Interests</h2>
 <ul>
-<li><strong>Optimal transport and optimization:</strong> capacity-constrained transport, regularization methods, clustering, quantization, and graph matching.</li>
+<li><strong>Optimal transport:</strong> capacity-constrained transport, regularization, clustering, quantization, and graph matching.</li>
 <li><strong>Graph computing and data mining:</strong> graph similarity, dense subgraph enumeration, vector search, and graph-based retrieval.</li>
 <li><strong>High-performance and parallel computing:</strong> GPU algorithms, distributed graph processing, and communication-efficient computation.</li>
 </ul>
